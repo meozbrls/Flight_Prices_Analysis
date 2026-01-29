@@ -22,7 +22,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/meozbrls/Flight_Prices_Analysis/blob/buse/notebooks/flight_prices_analysis.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/meozbrls/Flight_Prices_Analysis/blob/buse/upadte_the_notebook\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -3446,7 +3446,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "HNzVMCR8dUx0"
+        "id": "qWWyRjkQcBqD"
       },
       "execution_count": null,
       "outputs": [
@@ -3475,7 +3475,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 626
         },
-        "id": "ZqJyaDbndUx0"
+        "id": "dYviQkyscBqD"
       },
       "execution_count": null,
       "outputs": [
@@ -3801,7 +3801,7 @@
         "import seaborn as sns"
       ],
       "metadata": {
-        "id": "0vhp4XWydUx0"
+        "id": "kd-7JTjgcBqD"
       },
       "execution_count": null,
       "outputs": []
@@ -3818,7 +3818,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 928
         },
-        "id": "ZeUNEaiVdUx0"
+        "id": "taO_uhFncBqD"
       },
       "execution_count": null,
       "outputs": [
@@ -3845,7 +3845,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 772
         },
-        "id": "06G0K0mxdUx0"
+        "id": "ChVUCjKccBqE"
       },
       "execution_count": null,
       "outputs": [
@@ -3877,7 +3877,7 @@
         "df_nan = df.iloc[:, [i for i, n in enumerate(np.var(df.isnull(), axis='rows')) if n > 0]]"
       ],
       "metadata": {
-        "id": "Be6-MtoDdUx0"
+        "id": "Vj8ykEW9cBqE"
       },
       "execution_count": null,
       "outputs": []
@@ -3893,7 +3893,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 423
         },
-        "id": "EfxwORuPdUx0"
+        "id": "p4KXRODycBqE"
       },
       "execution_count": null,
       "outputs": [
@@ -4177,7 +4177,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 465
         },
-        "id": "16MgOhZ7dUx0"
+        "id": "t6Q57hkwcBqE"
       },
       "execution_count": null,
       "outputs": [
@@ -4211,7 +4211,7 @@
         "  df.isnull().sum()"
       ],
       "metadata": {
-        "id": "J0tXDFi9dUx0"
+        "id": "pDaZEjiEcBqE"
       },
       "execution_count": null,
       "outputs": []
@@ -4226,7 +4226,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "JXw60FGCdUx0"
+        "id": "lWrLOGmPcBqE"
       },
       "execution_count": null,
       "outputs": [
@@ -4276,7 +4276,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "bA6DyBBedUx0"
+        "id": "FVGA_40WcBqE"
       },
       "execution_count": null,
       "outputs": [
@@ -4315,7 +4315,7 @@
         "    return drop_list\n"
       ],
       "metadata": {
-        "id": "NMLAZdUGdUx0"
+        "id": "sx4JOHPGcBqE"
       },
       "execution_count": null,
       "outputs": []
@@ -4331,7 +4331,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 1000
         },
-        "id": "oDSOAVmsdUx0"
+        "id": "EmrXvsmZcBqE"
       },
       "execution_count": null,
       "outputs": [
@@ -4362,7 +4362,7 @@
         ")"
       ],
       "metadata": {
-        "id": "xwyah9dJdUx0"
+        "id": "RED1MUy8cBqE"
       },
       "execution_count": null,
       "outputs": []
@@ -4382,7 +4382,7 @@
         ")"
       ],
       "metadata": {
-        "id": "zCe8NnM8dUx0"
+        "id": "QRoYdrj4cBqE"
       },
       "execution_count": null,
       "outputs": []
@@ -4394,7 +4394,7 @@
         "df.drop(columns=[\"segmentsDepartureTime_clean\"], inplace=True)"
       ],
       "metadata": {
-        "id": "LxIassAfdUx0"
+        "id": "Qp04hn2OcBqE"
       },
       "execution_count": null,
       "outputs": []
@@ -4406,7 +4406,7 @@
         "df.drop(columns=[\"segmentsArrivalTime_clean\"], inplace=True)"
       ],
       "metadata": {
-        "id": "6jl3LMuRdUx0"
+        "id": "OdO_QWEQcBqE"
       },
       "execution_count": null,
       "outputs": []
@@ -4422,7 +4422,7 @@
           "height": 307
         },
         "outputId": "a8cd7a5e-c99e-4fd1-a615-7a57c2a834c2",
-        "id": "KttQsW8CdUx0"
+        "id": "9E9H3pjAcBqF"
       },
       "execution_count": null,
       "outputs": [
@@ -4743,7 +4743,7 @@
         "df.to_csv(output_path, index=False, compression=\"gzip\")"
       ],
       "metadata": {
-        "id": "8LPSmjHtdZqD"
+        "id": "v_ALP6eEcVZm"
       },
       "execution_count": null,
       "outputs": []
@@ -4753,10 +4753,10 @@
       "source": [
         "from google.colab import files\n",
         "\n",
-        "files.download(\"data/flightprices_2022_06_clean.csv.gz\")\n"
+        "files.download(\"data/flightprices_2022_06_clean.csv.gz\")"
       ],
       "metadata": {
-        "id": "EsVFFPa5dd0d"
+        "id": "uFrAu1K_cWPm"
       },
       "execution_count": null,
       "outputs": []
@@ -4764,21 +4764,12 @@
     {
       "cell_type": "code",
       "source": [
-        "# GitHub'a koyulacak sample_clean.csv oluşturma\n",
+        "#github'a koymak için sample csv\n",
         "#df_sample = df.sample(5000, random_state=42)\n",
-        "#df_sample.to_csv(\"sample_flightprices_2022_06_clean.csv\", index=False)\n"
+        "#df_sample.to_csv(\"data/sample_flightprices_2022_06_clean.csv\", index=False)\n"
       ],
       "metadata": {
-        "id": "6d4u_Tg-djHt"
-      },
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [],
-      "metadata": {
-        "id": "L0gx9zScdnOi"
+        "id": "u9Tj5gKtcX3l"
       },
       "execution_count": null,
       "outputs": []
