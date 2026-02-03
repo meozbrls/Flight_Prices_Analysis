@@ -1,2 +1,8 @@
 # macOS system files
 .DS_Store
+data/
+out/
+*.csv
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
